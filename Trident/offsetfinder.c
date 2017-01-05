@@ -25,8 +25,12 @@ t_target_environment info_to_target_environment(const char *device_model, const 
 	determineTarget("iPhone5,1", "9.3.2", iPhone51_iOS932);
 	determineTarget("iPhone5,2", "9.2.1", iPhone52_iOS921);
 	determineTarget("iPhone5,2", "9.3.2", iPhone52_iOS932);
-	determineTarget("iPhone5,3", "9.3.2", iPhone53_iOS932);
-	determineTarget("iPhone5,3", "9.3.3", iPhone53_iOS933);
+	determineTarget("iPhone5,4", "9.2.1", iPhone54_iOS921);
+	determineTarget("iPhone5,4", "9.3", iPhone54_iOS93);
+	determineTarget("iPhone5,4", "9.3.1", iPhone54_iOS931);
+	determineTarget("iPhone5,4", "9.3.2", iPhone54_iOS932);
+	determineTarget("iPhone5,4", "9.3.3", iPhone54_iOS933);
+	determineTarget("iPhone5,4", "9.3.4", iPhone54_iOS934);
 	determineTarget("iPad2,1", "9.3.1", iPad21_iOS931);
 	determineTarget("iPad2,1", "9.3.2", iPad21_iOS932);
 	determineTarget("iPad2,1", "9.3.3", iPad21_iOS933);
@@ -58,6 +62,7 @@ uint32_t find_OSSerializer_serialize(void) {
 		case iPhone52_iOS932: return 0x31ef58;
 		case iPhone53_iOS932: return 0x31ef58;
 		case iPhone53_iOS933: return 0x31f13c;
+		case iPhone54_iOS921: return 
 		case iPad21_iOS931: return 0x31812c;
 		case iPad21_iOS932: return 0x318264;
 		case iPad21_iOS933: return 0x318388;
