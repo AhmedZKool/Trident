@@ -1,5 +1,5 @@
 //
-//  offfinder.c
+//  offsetfinder.c
 //  Trident
 //
 //  Created by Benjamin Randazzo on 14/12/2016.
