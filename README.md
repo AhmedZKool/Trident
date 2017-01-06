@@ -24,6 +24,8 @@ Supported devices:
 * iPhone5,2 (N42AP), iOS 9.3.2 (Frisco 13F69)
 * iPhone5,3 (N48AP), iOS 9.3.2 (Frisco 13F69)
 * iPhone5,3 (N48AP), iOS 9.3.3 (Genoa 13G34)
+* iPhone5,4 (N49AP), iOS 9.3.2 (Frisco 13F69)
+* iPhone5,4 (N49AP), iOS 9.3.3 (Genoa 13G34)
 * iPad2,1 (K93AP), iOS 9.3.1 (Eagle 13E238)
 * iPad2,1 (K93AP), iOS 9.3.2 (Frisco 13F69)
 * iPad2,1 (K93AP), iOS 9.3.3 (Genoa 13G34)
@@ -62,3 +64,4 @@ Thanks: Lookout, Pangu team, i0n1c, jndok, kernelpool, planetbeing, qwertyoruiop
 > You feel it's true  
 > Its the little things in life  
 > that I feel
+Props to benjamin_42 for this exploit, and angelXWind, and the people who helped me add support for iphone 5,4 aka 5c Global
